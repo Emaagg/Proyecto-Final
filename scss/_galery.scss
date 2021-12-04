@@ -1,0 +1,28 @@
+
+.main__mediaG {
+    background-image: url("https://img2.wallspic.com/previews/9/3/7/1/1/111739/111739-peluquera-x750.jpg");
+    background-size: conver;
+    div {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center; 
+    }
+    p {
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 20px 0px;
+    }
+    img {
+        border-radius: 5%;
+        width: 500px;
+        height: 500px;
+        padding: 10px;
+        margin: 30px 30px;
+    }
+}
+.main__mediaG1:hover {
+    transform:scale(.9, .9);
+    transition: ease .4s;
+}

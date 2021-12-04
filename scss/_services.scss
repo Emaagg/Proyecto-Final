@@ -1,0 +1,41 @@
+$bg_black: black;
+$bg_white: white;
+
+.main__services {
+    background-color: $bg_white;
+    border: 1px solid $bg_black;
+    margin: 100px;
+    p {
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30px;
+        padding: 30px;
+    }
+    ul {
+        list-style: none;
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    li {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+        justify-content: center;
+        width: 20%;
+        margin-top: 20px;
+    }
+    li:last-child {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    li span {
+        display: block;
+        width: 100%;
+        margin: 10px 0 0;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    img {
+        max-height: 80px;
+    }
+}

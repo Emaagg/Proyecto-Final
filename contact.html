@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+    <meta name="description" content="Este es el sitio web de la peluqueria donde podras encontrar horarios, contacto, fotos, y mucho más">
+    <meta name="keywords"  content="FOTOS, HORARIOS, PELUQUERIA, PELO">
+    <title>Piú Bella - Contacto</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header header__menu">
+            <a href="index.html"><img src="img/logo.png" width="70px" alt="logo"></a>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="galery.html">Galería</a></li>
+                <li><a href="about.html">Acerca</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact section -->
+
+    <main class="main">
+        <section class="main main__mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.7145280256987!2d-56.10654158421014!3d-34.88851418013061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f86cfe72f3b2b%3A0x6a252041ce9f546c!2sPeluquer%C3%ADa%20PIU%20BELLA%20by%20Fabiana%20Gonzalez!5e0!3m2!1ses!2suy!4v1632080729385!5m2!1ses!2suy"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <form action="#">
+            <fieldset class="main main__Contact">
+                <legend>Completa la información</legend>
+                <div>
+                    <label for="nombre"></label>
+                    <input type="text" name="nombre" id="" placeholder="Nombre">
+                    <label for="nombre"></label>
+                    <input type="text" name="apellido" id="" placeholder="Apellido">
+                </div>
+                <br>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="email" id="" required placeholder="Correo Electrónico">
+                </div>
+                <br>
+                <div>
+                    <label for="teléfono"></label>
+                    <input type="tel" name="teléfono" id="" placeholder="Teléfono">
+                </div>
+                <br>
+                <div>
+                    <label for="comentario"></label>
+                    <textarea name="comentario" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                </div>
+                <div>
+                    <label class="formulario" for="notificaciones">Deseas recibir notificaciones</label>
+                    <input type="checkbox" name="notificaciones">
+                </div>
+                <br>
+                <div>
+                    <input class="botónContacto" type="submit" value="Enviar">
+                    <input class="botónContacto" type="reset" value="Borrar">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com" role="button"><i
+                        class="fab fa-facebook-f"><img src="img/sm/facebook.png" width="30px" alt="FACE"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"><i
+                        class="fab fa-twitter"><img src="img/sm/whatsapp.png" width="30px" alt="TW"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com" role="button"><i
+                        class="fab fa-instagram"><img src="img/sm/Instagram.png" width="30px" alt="IG"></i></a>
+
+            </section>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="index.html">Piúbella</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
+        integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

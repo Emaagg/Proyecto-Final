@@ -1,0 +1,37 @@
+$bg_white: white;
+$bg_black: black;
+
+.header__menu img {
+    position: absolute;
+    color: $bg_white;
+    width: 40px;
+    top: 7px;
+    left: 15px;
+}
+.header__menu ul {
+    list-style: none;
+    background-color: $bg_black;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+.header__menu ul a {
+    color: $bg_white;
+    text-decoration: none;
+    display: block;
+    padding: .3rem;
+}
+.header__menu ul li {
+    padding: 1rem 3rem;
+}
+.header__menu ul li a {
+    text-transform: uppercase;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.header__menu ul li a:hover, .menu ul li a:focus {
+    background-size: 100% 2px;
+}

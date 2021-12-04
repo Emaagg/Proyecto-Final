@@ -1,0 +1,43 @@
+$bg_black: black;
+$bg_white: white;
+$bg_lgrey: #b6babb;
+
+.main__acercafoto {
+    background-image: url("https://i.gyazo.com/08b31ab9807edd5315292b38712a90e4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 335px;
+}
+.main__somos {
+    background-color: $bg_black;
+    height: 100px;
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        color: $bg_white;
+        padding-top: 30px;
+        font-family: 'Anton', sans-serif;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+}
+.main__acercatext {
+    background-color: $bg_lgrey;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border: 1px solid $bg_black;
+    text-align: center;
+    width: 60%;
+    height: 500px;
+    margin: 2% 20% 2% 20%;
+    h3 {
+        font-size: 30px;
+        font-family: 'Anton', sans-serif;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    p {
+        font-family: cursive;
+        padding: 20px;
+        font-size: 20px;
+    }
+}

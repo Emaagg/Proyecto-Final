@@ -1,0 +1,64 @@
+$bg_black: black;
+$bg_white: white;
+
+.main__section1 {
+    background-color: $bg_white;
+    padding: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    div {
+        text-align: center;
+        padding: 30px 150px;
+    }
+    p {
+        width: 25rem;
+    }
+    img {
+        margin: 25px;
+        width: 140px;
+        height: 140px;
+        opacity: 1;
+    }
+    img:hover {
+        opacity: .7;
+    }
+}
+.homeAbout {
+    background-image: url("https://s1.eestatic.com/2020/01/30/imprescindibles/branded_content-marcas_destacadas-peluqueria_463715097_143867186_1706x960.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    h2 {
+        font-weight: bold;
+        font-family: 'Josefin Sans', sans-serif;
+        color: $bg_white;
+    }
+    p {
+        padding: 50px 0px 30px 0px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        color: $bg_white;
+    }
+    input {
+        padding: 10px;
+        margin: 10px;
+    }
+}
+.boton {
+    border: 1px solid $bg_black;
+    padding: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: $bg_white;
+    color: $bg_black;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.boton:hover {
+    color: $bg_white;
+    background-color: $bg_black;
+}
